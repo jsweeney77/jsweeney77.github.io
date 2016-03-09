@@ -1,0 +1,29 @@
+nav{
+    margin:20px 0;
+/*     height:100px; */
+}
+
+nav a{
+    margin:10px;
+    padding:10px;
+/*     border:1px solid #000; */
+}
+
+#landing-area{
+    background-color:#ddd;
+    height:500px;
+    position:relative;
+}
+
+
+#top-nav{
+/*     background:red;  */
+    margin-left:auto;
+    width:420px;
+}
+
+#main-nav{
+    position:absolute;
+    bottom:0;
+    text-align:center;
+}
