@@ -1,5 +1,5 @@
 body {
-    background: url("images/Hero.jpg")
+    background: url(../images/Hero.jpg)
     background-size: cover;
     padding-top: 7px;
 	padding-left: 38px;
