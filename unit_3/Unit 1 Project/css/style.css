@@ -1,30 +1,28 @@
 body {
-    background: url(http://jsweeney77.github.io/unit_3/Unit 1 Project/images/Hero.jpg)
-    background-size: cover;
-    padding-top: 7px;
+	background: url(../images/Hero.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding-top: 7px;
 	padding-left: 38px;
-    background-color: #6D99B2;
-    font-family:"helvetica";
-    font-size: 24px;
+	background-color: #6D99B2;
+	font-family:helvetica, arial, sans-serif;
+	font-size: 24px;
     
 }
 h2 {
-	font-size:	25px;
+	font-size:25px;
 	color:white;
-	font-weight: 300px;
+	font-weight: 300;
 	text-align: left;
 }
 .intro {
-	left:40;
 	font-weight: 100;
-	background-position: 100
    
 }
 
 #first {
 	color: #000;
-	margin-top: left
-	font-weight: 700px;
+	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -36,5 +34,5 @@ h2 {
 }
 
 p{ 
-  font-size: 24px;
+	font-size: 24px;
 }
