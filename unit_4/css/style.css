@@ -13,7 +13,7 @@ body {
 }
 h1 {
 	font-family:'Source Sans Pro', sans-serif;
-	font-size: 1em;
+	font-size: 3em;
 	font-weight: 700;
 	font-kerning: 30px;
 	text-transform: uppercase;
@@ -49,7 +49,15 @@ h2 {
 	font-style: italic;
 }
 
+h3	{font-size: 2em;
+	color:white;
+	
+}
 p{ 
 	font-size: 3em;
 	line-height: 1em;
+}
+ul{	font-size: 2em;
+	color:white;
+
 }
