@@ -1,10 +1,11 @@
-h1{font-style:
-    background-color:#FFED74;
-    }
 
-header { 
-    resize: -2em;
-
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-size:16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header img { 
+    width:10em;
 }
 nav{
     background-color: #E8C66A;
@@ -15,11 +16,18 @@ nav{
 }
 
 nav a{
-    margin:10px;
-    padding:10px;
+    margin:.5em;
+    padding:.5em;
 /*     border:1px solid #000; */
 }
+h1{
+    font-style:;
+    background-color:#FFED74;
+}
+h2{ 
+    font-family: helvetica,arial,sans-serif;
 
+}
 #whoweare{
     background-color: #FFC675;
     border: 1px black solid;
@@ -47,8 +55,6 @@ nav a{
     height:500px;
     position:relative;
 }
-
-
 #top-nav{
 /*     background:red;  */
     margin-left:auto;
@@ -56,13 +62,6 @@ nav a{
 }
 
 #main-nav{
-    position:absolute;
-    bottom:0;
     text-align:center;
     margin:20px;
-}
-
-h2{ 
-    font-style: helvetica;
-
 }
