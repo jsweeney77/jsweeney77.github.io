@@ -1,0 +1,139 @@
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900);
+
+
+.wrapper{
+    background-color: #FFFFFF;
+}
+
+body {
+    font-size:16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header{
+    height: 100px;
+}
+header img { 
+    width:15em;
+    padding: 20px;
+    margin-left:80px;
+
+}
+nav{
+    background-color: #FFFFFF;
+    border: 1px;
+    padding: 20px;
+    margin:20px 0;
+/*     height:200px; */
+}
+
+nav a{
+    padding: 1em;
+    color: black;
+    display: inline;
+    font-size: 1.2em;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:#598aa1;
+}
+#top-nav {
+    float: right;
+    height: 60px;
+    padding: 20px;
+    /*     background:red;  */
+    margin-left:auto;
+    width:600px;
+}
+
+#main-nav  {
+    text-align:center;
+    margin:10px;
+
+}
+
+
+h1{
+    font-size: 2em;
+    background-color:#024D7C;
+    color: white;
+    font-weight: normal;
+
+}   
+h2{ 
+    font-family: 'source-sans', arial,sans-serif;
+
+}
+p {
+    font-size:1em;
+
+}
+
+#secondhalf{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+
+#slogan{
+    font-size: 2em;
+    text-align: center;
+}
+#backgroundpicture {
+    float: center;
+}
+
+#left{ 
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float:left;
+    margin-right: 20px;
+    width:48%;
+}
+
+#right{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    margin-right: 20px;
+    width:48%;
+}
+
+#two-column {
+    background-color: #FFB7CF;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#splash{
+    background-image: url(..images/Hero.jpg);
+    background-color: #FFB7CF;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #598aa1;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+
+
