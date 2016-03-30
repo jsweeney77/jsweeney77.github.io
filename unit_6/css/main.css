@@ -32,10 +32,12 @@ nav{
 }
 
 nav a{
-    padding: 1em;
+    padding: .5em;
     color: black;
     display: inline;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-variant: unset;
 
 }
 
@@ -55,6 +57,8 @@ nav a:hover {
 #main-nav  {
     text-align:center;
     margin:10px;
+    font-size: 1.2em;
+    font-weight: 300px;
 
 }
 
@@ -68,10 +72,11 @@ h1{
 }   
 h2{ 
     font-family: 'source-sans', arial,sans-serif;
+    font-weight: normal;
 
 }
 p {
-    font-size:1em;
+    font-size:1.3em;
 
 }
 
@@ -108,7 +113,7 @@ p {
 }
 
 #two-column {
-    background-color: #FFB7CF;
+    background-color: #66b7cb;
     padding: 20px;
     margin-left: 20px;
 
@@ -130,9 +135,11 @@ p {
 }
 
 footer{
-    background-color: #598aa1;
+    background-color: #024D7C;
     padding: 30px;
     margin-left: 20px;
+    font-size: 1em;
+    color: white;
 }
 
 
