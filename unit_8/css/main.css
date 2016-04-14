@@ -1,9 +1,5 @@
-
-* { margin:0; padding:0; box-sizing:border-box; }
-
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900);
-
-
+* { margin:0; padding:0; box-sizing:border-box; }
 .wrapper{
     background-color: #FFFFFF;
 }
@@ -48,12 +44,11 @@ nav a:hover {
 }
 #top-nav {
     float: right;
-    height: 3em;
+    /* height: 3em; */
     padding: 1em;
     /*     background:red;  */
     margin-right:1em;
-    width: 500px;
-
+    /* width: 500px; */
 }
 
 #main-nav  {
@@ -66,11 +61,12 @@ nav a:hover {
 
 
 h1{
-    font-size: 2em;
-    background-color:#024D7C;
+    font-size: 4em;
+    background-color: rgba(2,77,124,0.7);
     color: white;
     font-weight: normal;
-
+    display: inline-block;
+    padding: .5em;
 }   
 h2{ 
     font-family: 'source-sans', arial,sans-serif;
@@ -89,8 +85,9 @@ p {
 
 
 #slogan{
-    font-size: 2em;
-    text-align: center;
+    /* font-size: 2em; */
+    /* text-align: center; */
+    /* padding-top: 20em; */
 }
 #backgroundpicture {
     float: center;
@@ -130,10 +127,15 @@ p {
 }
 
 #splash{
-    background-image: url(..images/Hero.jpg);
+    background-image: url(../images/Hero.jpg);
     background-color: #FFB7CF;
     background-position: center;
     margin-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 80vh; */
+    padding: 20em 0;
+    text-align: center;
 }
 
 #offering {
@@ -145,21 +147,21 @@ p {
 
 #profession {
      background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-    float:right;
-    margin-right: 20px;
-    width:48%;
-
+     /* border: 1px black solid; */
+     padding: 20px;
+     float:right;
+     /* margin-right: 20px; */
+     width: 50%;
 }
 
-#leader{ 
+#leader{
     background-color: #E582A2;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     padding: 20px;
     float:left;
-    margin-right: 20px;
-    width:48%;
+    /* margin-right: 20px; */
+    width: 50%;
+    /* margin: 1%; */
 }
 
 footer{
@@ -173,8 +175,3 @@ footer{
 @media only screen and (max-width: 960px) {
 #top-nav{  }
 }
-
-
-
-
-
