@@ -307,6 +307,7 @@ h1{
     float:left;
     margin-right: 200px;
     width:80%;
+}
 
 @media only screen and (max-width: 300px){
 
@@ -318,7 +319,7 @@ h1  {
     padding: 0;
     text-align:center;
 }
-
+}
 #slogan{
     font-size: 1.5em;
     padding-bottom: 140 0;
