@@ -31,7 +31,7 @@ nav{
 }
 
 nav a{
-    padding: .5em;
+    /*! padding: .5em; */
     color: black;
     display: inline;
     font-size: 1.3em;
@@ -254,7 +254,7 @@ footer{
         width:80%;
     }
 }
-@media only screen and (max-width: 322px){
+@media only screen and (max-width: 410px){
     h1  {
         font-size: 1em;
         text-align:center;
@@ -262,8 +262,6 @@ footer{
     header {
         height: 200px;
     }
-    top-nav{
-        text-align: block;
-        padding: 0;
-    }
+    nav a {
+    display: inline-block;   }
 }
