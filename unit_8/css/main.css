@@ -254,23 +254,15 @@ footer{
         width:80%;
     }
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 322px){
     h1  {
-        width: 100%;
         font-size: 1em;
-        display: inline-block;
-        padding: .5em;
-        padding: 0;
         text-align:center;
     }
-    #splash{
-        font-size: 5em;
-        padding: 0;
-        width:80%;
+    header {
+        height: 200px;
     }
-    
-    #header {
-        height:200px;
-        
+    top-nav{
+        text-align: block;
     }
 }
