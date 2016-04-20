@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 .wrapper{
@@ -233,16 +234,13 @@ h1  {
 
 }
 
-
-
-
-}
 #main-nav  {
     text-align:center;
     margin:10px;
     font-size: 1.2em;
     font-weight: 300px;
 }
+
 @media only screen and (max-width: 800px){
 
 #top-nav { 
@@ -252,22 +250,14 @@ h1  {
 }
 
 #splash{
-    background-image: url(../images/Hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #FFB7CF;
-    background-position: center;
-    height: 20px;
-    resize: 30%;
-    margin-bottom: 100;
-    padding: 20em;
+    padding: 10em;
     text-align:center;
 }
 
 #left {
     float:left;
     margin-right: 200px;
-    width:80%;
+    width:100%;
 
 }
 
@@ -275,8 +265,6 @@ h1  {
     float:right; 
     width:100%;
     margin-left: 40px;
-
-
 }
 
 #profession {
@@ -290,7 +278,6 @@ h1  {
 {
     float:left; 
     width:100%;
-    margin-left: 40px;
 
 }
 header img {
@@ -300,7 +287,9 @@ header img {
 }
 
 h1{
+    font-size: 1.5em;
     display: inline-block;
+    padding-top: 0;
 
 }
 
