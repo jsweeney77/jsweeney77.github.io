@@ -1,14 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900);
-<<<<<<< Updated upstream
+
 * { margin:0; padding:0; box-sizing:border-box; }
 .wrapper{
     background-color: #FFFFFF;
 }
-=======
+
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
->>>>>>> Stashed changes
+
 
 body {
     font-size:16px;
@@ -52,17 +51,17 @@ nav a:hover {
 
 #top-nav {
     float: right;
-<<<<<<< Updated upstream
+
     /* height: 3em; */
     padding: 1em;
     /*     background:red;  */
     margin-right:1em;
     /* width: 500px; */
-=======
+
     padding: 1em;
     /*     background:red;  */
     margin-right:1em;
->>>>>>> Stashed changes
+
 }
 
 #main-nav  {
@@ -100,15 +99,15 @@ p {
 
 
 #slogan{
-<<<<<<< Updated upstream
+
     /* font-size: 2em; */
     /* text-align: center; */
     /* padding-top: 20em; */
-=======
+
     font-size: 1em;
     text-align: center;
     padding-top: 0;
->>>>>>> Stashed changes
+
 }
 #backgroundpicture {
     float: center;
@@ -144,25 +143,24 @@ p {
 
 #splash{
     background-image: url(../images/Hero.jpg);
-<<<<<<< Updated upstream
-=======
+
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> Stashed changes
+
     background-color: #FFB7CF;
     background-position: center;
     height: 60px;
     margin-bottom: 0;
-<<<<<<< Updated upstream
+
     background-size: cover;
     background-repeat: no-repeat;
     /* height: 80vh; */
     padding: 20em 0;
     text-align: center;
-=======
+
     padding: 20em;
     text-align:center;
->>>>>>> Stashed changes
+
 }
 
 #offering {
@@ -172,38 +170,37 @@ p {
 }
 
 #profession {
-<<<<<<< Updated upstream
+
      background-color: #FFE2B8;
      /* border: 1px black solid; */
      padding: 20px;
      float:right;
      /* margin-right: 20px; */
      width: 50%;
-=======
+
     background-color: green;
     background-size: 2em;
     padding: 20px;
     float:right;
     width:50%;
 
->>>>>>> Stashed changes
+
 }
 
 #leader{
     background-color: #E582A2;
-<<<<<<< Updated upstream
     /* border: 1px black solid; */
     padding: 20px;
     float:left;
     /* margin-right: 20px; */
     width: 50%;
     /* margin: 1%; */
-=======
+
     resize: 50%;
     padding: 20px;
     float:left;
     width:50%;
->>>>>>> Stashed changes
+
 }
 
 footer{
@@ -227,8 +224,6 @@ header img {
     text-align: center;
 
 }
-<<<<<<< Updated upstream
-=======
 
 h1  {
     font-size: 2.5em;
@@ -284,6 +279,20 @@ h1  {
 
 }
 
+#profession {
+    float:left;
+    width:100%;
+    margin: 0;
+
+}
+
+#leader
+{
+    float:left; 
+    width:100%;
+    margin-left: 40px;
+
+}
 header img {
     padding-top: .8em;
     float: center;
@@ -325,4 +334,4 @@ h1  {
     padding-bottom: 140 0;
     width: 30%;
     margin: center;
->>>>>>> Stashed changes
+
