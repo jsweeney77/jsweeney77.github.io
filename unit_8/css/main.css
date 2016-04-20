@@ -264,5 +264,6 @@ footer{
     }
     top-nav{
         text-align: block;
+        padding: 0;
     }
 }
