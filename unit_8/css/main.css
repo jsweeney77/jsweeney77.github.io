@@ -2,7 +2,7 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 .wrapper{
-    background-color: #FFFFFF;
+    /*! background-color: #FFFFFF; */
 }
 
 body {
@@ -19,23 +19,19 @@ header img {
     width:15em;
     padding: 20px;
     margin-left:40px;
-
 }
 nav{
     background-color: #FFFFFF;
     border: 1px;
     padding: 20px;
     margin:20px 0;
-
-/*     height:200px; */
 }
 
 nav a{
-    /*! padding: .5em; */
-    color: black;
-    display: inline;
     font-size: 1.3em;
     text-decoration: none;
+    display: inline;
+    color: black;
     font-variant: unset;
 
 }
@@ -47,17 +43,9 @@ nav a:hover {
 
 #top-nav {
     float: right;
-
-    /* height: 3em; */
     padding: 1em;
-    /*     background:red;  */
-    margin-right:1em;
-    /* width: 700px; */
-
-    padding: 1em;
-    /*     background:red;  */
-    margin-right:1em;
-
+    height: 60px;
+    display:block-inline;
 }
 
 #main-nav  {
@@ -75,7 +63,7 @@ h1{
     color: white;
     font-weight: normal;
     display: inline-block;
-    padding: .5em;
+    padding: 1em;
 }   
 
 h2{ 
@@ -83,8 +71,7 @@ h2{
     font-weight: normal;
 
 }
-p {
-    font-size:1.3em;
+p {font-size:1.3em;
 
 }
 
@@ -156,18 +143,15 @@ p {
 }
 
 #leader{
-    background-color: #E582A2;
+    background-color: rgb(180,191,82);
     /* border: 1px black solid; */
     padding: 20px;
     float:left;
     /* margin-right: 20px; */
     width: 50%;
     /* margin: 1%; */
-    padding: 20px;
-    float:left;
-    width:50%;
-
-}
+    padding-top: 77px;
+}  
 
 footer{
     background-color: #024D7C;
@@ -183,28 +167,31 @@ footer{
         margin-left:40px;
         float: center;
     }
+    
     h1  {
         font-size: 2.5em;
         display: inline-block;
         padding: .5em;
         text-align:center;
-    
     }
     
     #main-nav  {
         text-align:center;
         margin:10px;
         font-size: 1em;
-        font-weight: 300;
         font-weight: 300px;
-    }
 }
 @media only screen and (max-width: 800px){
 
+        header {
+        height: 170px;
+    }
     #top-nav { 
         float: none;
-        width: 100px;
-        margin-left: 10px;
+        margin-left: 30px;
+        display: block;
+        text-align: center;
+
     }
     
     #splash{
@@ -255,14 +242,31 @@ footer{
         width:80%;
     }
 }
-@media only screen and (max-width: 410px){
+@media only screen and (max-width: 379px){
     h1  {
         font-size: 1em;
         text-align:center;
     }
     header {
         height: 200px;
+        text-align: center;
+
     }
+    #splash{
+        width:100%;
+        padding: 80px;
+    }
+    
+    #top-nav{
+    padding: 0em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+        
+    }
+    
     nav a {
-    display: inline-block;   }
+    display: inline-block;  
+    }
 }
