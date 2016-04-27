@@ -51,12 +51,17 @@ nav a:hover {
 }
 
 #main-nav  {
-    text-align:center;
-    margin:10px;
     font-size: 1.2em;
     font-weight: 300px;
-    display:block;
+    width: 100%;
+    padding: 0; 
+    text-align: center;
+    margin: 0;
+}
 
+#main-nav a{
+    margin: auto;
+    size: 50%;
 }
 
 
@@ -78,15 +83,6 @@ p {font-size:1.3em;
 
 }
 
-
-#secondhalf{
-    width:500px; 
-    background-color: #FFFFFF;
-    padding: 0px;
-    text-align: center;
-    margin: auto;
-
-}
 
 #left{ 
     padding: 20px;
