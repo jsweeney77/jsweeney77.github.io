@@ -34,7 +34,6 @@ nav a{
     color: black;
     font-variant: unset;
     font-style: italic;
-    padding: 0em 1em;
 
 }
 
@@ -48,6 +47,7 @@ nav a:hover {
     padding: 1em;
     height: 60px;
     display:block-inline;
+    margin: 20px;
 }
 
 #main-nav  {
@@ -55,7 +55,7 @@ nav a:hover {
     margin:10px;
     font-size: 1.2em;
     font-weight: 300px;
-    display:inline;
+    display:inline-block;
 
 }
 
@@ -239,6 +239,10 @@ footer{
     
     }
     
+    #secondhalf{
+        width:60%;
+    }
+
     #leader {
         float:left; 
         width:100%;
@@ -265,8 +269,19 @@ footer{
 
 
     h1  {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align:center;
+        width:100%;
+    }
+
+    p{
+        text-align: left;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: left;
     }
     header {
         height: 200px;
@@ -278,16 +293,26 @@ footer{
         padding: 80px;
     }
     #secondhalf{
-        width:100%;
+        width:60%;
     }
 
-    
+    #main-nav {
+        padding: 0;
+
+    }
+    #right {
+        padding-left: 2em;
+
+    }
+
+
     #top-nav{
     padding: 0em;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     display: block;
+    width: 80%;
 }
 
 .top-nav{

@@ -55,7 +55,7 @@ nav a:hover {
     margin:10px;
     font-size: 1.2em;
     font-weight: 300px;
-    display:inline;
+    display:block;
 
 }
 
@@ -82,7 +82,7 @@ p {font-size:1.3em;
 #secondhalf{
     width:500px; 
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     margin: auto;
 
@@ -91,13 +91,14 @@ p {font-size:1.3em;
 #left{ 
     padding: 20px;
     float:left;
-    margin-right: 20px;
     width:45%;
+    margin left: 5em;
+    text-align: left;
 }
 
 #right{
-    padding: 10px;
-    margin-right: 10px;
+    padding: 20px;
+    margin left: 5em;
     float:right; 
     width:50%;
 }
@@ -158,7 +159,7 @@ p {font-size:1.3em;
     /* margin-right: 20px; */
     width: 50%;
     /* margin: 1%; */
-    padding-top: 59.5px;
+    padding-top: 1.5em;
 }  
 
 footer{
@@ -201,6 +202,11 @@ footer{
 
     }
 
+    header img { 
+        margin: 0;
+        display: center;
+}
+
     #top-nav { 
         float: none;
         margin-left: 30px;
@@ -223,6 +229,7 @@ footer{
         float:left;
         margin-right: 200px;
         width:100%;
+        padding-right: 0;
     
     }
     
@@ -239,10 +246,19 @@ footer{
     
     }
     
+    #secondhalf{
+        width:60%;
+    }
+    
     #leader {
         float:left; 
         width:100%;
     
+    }
+
+    #main-nav{
+        width: 80%;
+
     }
     header img {
         padding-top: .8em;
@@ -258,36 +274,76 @@ footer{
     #left {
         float:left;
         margin-right: 200px;
-        width:80%;
+        width:100%;
     }
 }
 @media only screen and (max-width: 379px){
 
 
     h1  {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align:center;
     }
+
+     p{
+        text-align: left;
+        font-size: 1em;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
     header {
         height: 200px;
         text-align: center;
+        padding-right: 20px;
 
     }
+
+    header img{
+        width: 70%;
+    }
+
+
     #splash{
         width:100%;
-        padding: 80px;
+        text-align: center;
+        resize: 70%;
+        padding-left: 30%;
+
     }
     #secondhalf{
-        width:100%;
+        width:50%;
+        text-align: center;
+        padding:0;
+        margin: center;
+    }
+    
+    #main-nav {
+        padding: 0;
+
+    }
+    #right {
+        padding-left: 1.5em;
     }
 
-    
+    #left{
+    width:100%;
+
+    }
+
+    #leader{
+        padding-top: 1em;
+
+    }
+
     #top-nav{
-    padding: 0em;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 1em;
+    width: 80%;
     text-align: center;
-    display: block;
+    padding-left: 20px;
+
 }
 
 .top-nav{
@@ -295,8 +351,13 @@ footer{
     display: inline-block;
         
     }
+
+#main-nav a{
+    padding 0;
+}
     
     nav a {
+    padding:0;
     display: inline-block;  
     }
 }
